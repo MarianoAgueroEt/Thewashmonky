@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheWashMonky</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../assets/mono-mono.jpg" type="image/x-icon">
+</head>
+<body>
+    <header id="arriba" class="tituloazul"><!--Esta class la utilizo para usar el titulo azul y el id para lograr el destino del cursor -->
+        <h1>TheWashMonkey</h1>
+        <nav>
+            <ul class="navegacion">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#">Turnos</a></li>
+                <li><a href="quienessomos.html">Quienes somos</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contacto-redes.html">Contacto & Redes</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+            <h2>Solicita tu turno ONLINE</h2>
+            <form action="" method="post" enctype="text/plain"></form>
+                <fieldset>
+                        <label for="nombreapellido">Nombre y Apellido</label>
+                        <input type="text" id="nombreapellido" name="nombreapellido" placeholder="Nombre y Apellido">
+                </fieldset>
+                <fieldset>
+                        <label for="modelo">Modelo de auto</label>
+                        <input type="text" id="modelo" name="modelo" placeholder="Ej:Golf">
+                </fieldset>
+                <fieldset>
+                        <legend>¿Que lavado desea?</legend>
+                        <div>Basico</div>
+                        <input type="radio" name="lavado" value="Clasico" required>
+                        <div>Completo</div>
+                        <input type="radio" name="lavado" value="Premium" required>
+                        <div>Full</div>
+                        <input type="radio" name="lavado" value="VIP" required>
+                </fieldset>
+                    <input type="datetime-local">
+                    <input type="submit" value="Enviar">         
+            </form>
+        </main>
+    <footer>
+        <div>
+            <a href=""><img src="../assets/mono-mono.jpg" alt="logo mono" width="20" height="20"></a>
+        </div>       
+    </footer>
+</body>
+</html>
