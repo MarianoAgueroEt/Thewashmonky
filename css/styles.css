@@ -124,6 +124,7 @@ main p {
     font-size: 25px;
 }
 
+
 /*Termino tirar estilos en QUIENES SOMOS*/
 
 
@@ -157,9 +158,13 @@ a img {
 div p {
     text-align: center;
 }
-.clase-de-redes img{
-    display: flex;
-    margin-left: 50%;
+.redes {
+    text-align: center;
 }
+.center-iframe {
+    text-align: center;
+}
+
+
 /*Termino tirar estilos en CONTACTO-REDES*/
 
