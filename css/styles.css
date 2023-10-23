@@ -76,36 +76,107 @@ ul{
     height:50px;
 }
 
-.carta-servicio{
+.carta-servicio {
     height: 350px;
     width: 300px;
     border: 1px solid;
     text-align: center;
     padding: 20px;
     border-radius: 30px;
-    background-color: #F9E79F;
-    
+    background-color: #F9E79F;  
 }
 
-.carta-servicio h3{
+.carta-servicio h3 {
 text-align: center;
 margin-top: 20px;
 }
 
-.carta-servicio p{
+.carta-servicio p {
     text-align: center;
     margin-top: 15px;
 }
 
 
+.footer {
+    padding: 50px 0 0;
+    bottom: 0;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer-link {
+    width: 30%;
+    padding: 0 10%;
+}
+
+.footer-link h4 {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 5px solid #FFFFFF;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-link ul li a{
+    font-size: 23px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footer-link ul li a:hover{
+    color: #FFFFFF;
+    padding-left: 6px;
+}
+
+.footer-img img {
+    display: inline-block;
+    min-height: 300px;
+    width: 300px;
+}
+
+.footer-subir {
+    text-align: left;
+}
+
+.footer-subir a img {
+    width: 50px;
+    height: 30px;
+   display: inline-block;
+}
+
+
 /*MOBILE*/
-@media (max-width:425px) {
+@media (max-width:991px) {
     .navegacion a {
         margin-left: 40%;
 
     }
+
+    .footer-row {
+        text-align: center;
+    }
+
+    .footer-link {
+        width: 100%;
+        padding-bottom: 15px;
+    }
     
 }
+
 /*Aca cierro INDEX*/
 
 /*Comienzo tirar estilos en TURNOS*/
