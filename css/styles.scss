@@ -64,14 +64,14 @@ header {
 
 
 body {
-    background: 
-        color #4F80FF;
-        image  $bgimagen;
+    background: {
+        color: #4F80FF;
+        image: $bgimagen;
+        
+    }
 }
 
-h1 {
-   color: #000000;
-}
+
 h2 {
     width: 1300px;
     height: 150px;
@@ -195,7 +195,7 @@ ul {
 @media (max-width:991px) {
 
     .navegacion a {
-        margin-left: 40%; 
+        margin-left: 40%;
 
     }
 
@@ -207,4 +207,5 @@ ul {
         width: 100%;
         padding-bottom: 15px;
     }
+
 }
